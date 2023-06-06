@@ -88,3 +88,29 @@ select Warehouse, item, itemName, Qty into Ts_item_inventory_WH2 from 	Item_inve
 
 ### integration issue
 ### data gap issue
+
+
+
+### Nomal data model problems would be faced
+1) Inaccurate Customer and Contact Data （missing values
+2) Big Data Makes it Hard to Focus (wrong values, collect various data)
+Big data captured generally falls into three categories: unstructured (text, videos, audio), semi-structured data (email, reports, spreadsheets), and structured data (sensor data, machine data, financial models, algorithms, etc.).
+3) Compliance Issues
+Consolidating privacy and security compliance management as part of an overall data governance initiative gives a business a significant advantage.
+4) Duplicate or Obsolete Issues
+ If a company commonly has multiple records for the same customer in a database or data warehouse, duplicate identification tools can help match and link records based on individual standards, allowing for greater accuracy over time.
+5) Reconciling Data Quality Issues During a Merger (information in two ERP systems may be different)
+Most data quality issues can be significantly reduced through careful planning during the design phase and data integration effort. At the start of a merger, for example, a company should take time to regroup and create standards, guidelines, and procedures for corporate data processes.
+6) Inaccurate Transaction Data (duplicate data or records)
+data marts are used as smaller data storage facilities to provide reporting and analytical capabilities for specific business processes.
+7) Operational Productivity Roadblocks
+ Productivity decreases in instances of lost products and time due to reprocessing an order shipped to an outdated address, or an increase in time spent flagging and fixing invalid records.
+ solution: Using a new platform such as Hubspot is deployed to track inbound marketing activities, the enterprise data quality initiative should be scalable to address those new requirements.
+8) Growth and Expansion Impacts
+A manufacturer, for instance, may have limited internal sales data, requiring third-party data from retailers to get a full picture of their end customer. Adding new facilities and enriching internal base data with third-party sources. 
+9) Select Data governance leads
+It’s important to assign responsibilities and formal procedures for each data governance lead and everyone that handles data. During this phase, it’s also critical that IT has a firm grip on data quality expectations so they can build the system to support the right data types.
+11) Using Flawed Data()
+it’s important to see the big picture and set realistic goals and an iterative approach to any data quality initiative and take a strong data quality program
+
+### Lessons learnd
