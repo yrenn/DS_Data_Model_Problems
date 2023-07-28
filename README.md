@@ -132,5 +132,3 @@ A manufacturer, for instance, may have limited internal sales data, requiring th
 It’s important to assign responsibilities and formal procedures for each data governance lead and everyone that handles data. During this phase, it’s also critical that IT has a firm grip on data quality expectations so they can build the system to support the right data types.
 11) Using Flawed Data()
 it’s important to see the big picture and set realistic goals and an iterative approach to any data quality initiative and take a strong data quality program
-
-### Lessons learnd
