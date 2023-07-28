@@ -1,6 +1,9 @@
 # data_model
 
-## data model problems
+The summary shows the problems we often faced in data analysis and data migration. There are also some useful solutions for each problem.
+
+
+## Data model problems
 - duplication issue
 - integration issue
 - data gap issue
@@ -30,9 +33,9 @@ Solution:
 ```
 select * from table where name='Vincent' 
 ```
-to find all the records for the similar entities, and then base on date birth to identify whether they are the same.
+to find all the records for similar entities, and then base them on date of birth to identify whether they are the same.
 
-  (2) once identified,either pick the latest one or merge them together, the key point in this scenario is to keep only one row for Vincent.
+  (2) once identified, either pick the latest one or merge them together, the key point in this scenario is to keep only one row for Vincent.
 
   (3) if our decision is to keep Customer key 3, then we need to go fact table to update Customer_table set Customer=3 where Customer=1 to fix the tables where we are using customer=1
 
@@ -87,14 +90,31 @@ select Warehouse, item, itemName, Qty into Ts_item_inventory_WH2 from 	Item_inve
 ![image](https://github.com/yrenn/data_model/assets/118937529/e1bf5e3a-ee74-479b-89ba-14a4e69768aa)
 
 ### integration issue
+
+1. Diverse Data Sources or different databases
+Data from different sources may be stored in different file formats (such as CSV, Excel, or JSON) or different database systems (such as MySQL, Oracle, or MongoDB). In order to integrate this data, it may be necessary to convert it to a common format or to extract and transform it in a way that allows it to be combined with other data sources.
+
+2. Low-Quality Information
+  Incomplete data: Data may be missing important information or have incomplete records, which can make it difficult to use or analyze.
+  Incorrect data: Data may contain errors or inaccuracies, which can lead to incorrect conclusions or decisions based on the data.
+  Outdated data: Data may be outdated or no longer relevant, which can also impact its usefulness.
+  Poorly formatted data: Data may be stored in a way that makes it difficult to integrate or analyze, such as in different formats or structures.
+
 ### data gap issue
 
+1. Missing data
+Your organization does not gather the full scope of available information.
+2. Data disparity
+The disparity between the importance that management allocates to a metric or indicator.
+3. Misinterpretation of data
+If the individual analyzing the data does not have the right knowledge and skill to interpret or clean the data. This results in drawing an incorrect conclusion and possibly making a harmful decision.
 
 
-### Nomal data model problems would be faced
+
+### Normal data model problems would be faced
 1) Inaccurate Customer and Contact Data （missing values
 2) Big Data Makes it Hard to Focus (wrong values, collect various data)
-Big data captured generally falls into three categories: unstructured (text, videos, audio), semi-structured data (email, reports, spreadsheets), and structured data (sensor data, machine data, financial models, algorithms, etc.).
+Big data captured generally fall into three categories: unstructured (text, videos, audio), semi-structured data (email, reports, spreadsheets), and structured data (sensor data, machine data, financial models, algorithms, etc.).
 3) Compliance Issues
 Consolidating privacy and security compliance management as part of an overall data governance initiative gives a business a significant advantage.
 4) Duplicate or Obsolete Issues
