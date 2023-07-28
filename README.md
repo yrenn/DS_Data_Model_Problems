@@ -4,9 +4,9 @@ The summary shows the problems we often faced in data analysis and data migratio
 
 
 ## Data model problems
-- duplication issue
-- integration issue
-- data gap issue
+- [duplication issue](#duplication-issue)
+- [integration issue](#integration-issue)
+- [data gap issue](#data-gap-issue)
 
 ### duplication issue
 Duplication is one of the common issues in Data handling (ETL). Duplication refers to the presence of redundant or repeated data within a data model or database. It occurs when the same information is stored in multiple places, leading to potential inconsistencies and inefficiencies in data management. There are a few scenarios for duplication
