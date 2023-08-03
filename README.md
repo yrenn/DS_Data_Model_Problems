@@ -1,4 +1,4 @@
-# data_model
+# DS_Data_Model_Problems
 
 The summary shows the problems we often faced in data analysis and data migration. There are also some useful solutions for each problem.
 
